@@ -31,6 +31,7 @@ var core;
         die2.x =400 
             function rollbutton1(rollbutton) {
                 this.rollbutton = rollbutton;
+                
                 die1 = (int)(Math.random()*6) + 1;
                 die2 = (int)(Math.random()*6) + 1;
                 }
